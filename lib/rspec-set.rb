@@ -32,8 +32,8 @@ module RSpec
                 # Reload saved model
                 model.reload
               end
-            else
-              warn "#{variable_name} is a #{model.class} - rspec-set works with ActiveRecord models only"
+            # else
+            #   warn "#{variable_name} is a #{model.class} - rspec-set works with ActiveRecord models only"
             end
           end
 
